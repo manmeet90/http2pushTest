@@ -1,10 +1,10 @@
 ## Steps to run this demo
 
-    - clone the repo.
-    - run `npm install`
-    - run `npm start`
-    - Go to `https://localhost:3000/`
-    
+- clone the repo.
+- run `npm install`
+- run `npm start`
+- Go to `https://localhost:3000/`
+
 I was thinking from a long time to write this article as I feel as a web developer(specially mobile web developer) it's very important to tackle performance related issues to grab more users in market like India, Africa and SE Asia where the internet speed is not that good compared to western world.
 
 According to research done by Google few months back the next billion users who are going to be part of internet community will be from these markets only.
