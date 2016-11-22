@@ -5,6 +5,19 @@ const path = require("path");
 
 const app = express();
 
+app.use("/sw.js", (req, res, next) =>{
+    console.log("request for service worker");
+    
+    /*fs.readFile(path.join(__dirname, "public/sw.js"), (err, data) =>{
+        if(err){
+            console.log(err);
+        }else{
+            res.set("Content-Type", "application/javascript");
+            res.send(data);
+        }
+    });*/
+    res.sendFile(path.join(__dirname, "public/sw.js"));
+});
 app.use("/", (req, res, next) => {
     res.set("cache-control", "max-age=3600");
     next();
