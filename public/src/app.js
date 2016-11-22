@@ -10,7 +10,6 @@ var app ={
     "bindEvents" : function(){
         document.getElementById("btnSave").addEventListener("click", function(e){
             e.preventDefault();
-            console.log(e);
             let formData = new FormData(document.getElementById("userForm"));
             if(formData){
                 let user = new Person(formData.get("fname"), formData.get("lname"), formData.get("age"));
