@@ -1,4 +1,10 @@
-Hi fellow Web Developers,
+## Steps to run this demo
+
+    - clone the repo.
+    - run `npm install`
+    - run `npm start`
+    - Go to `https://localhost:3000/`
+    
 I was thinking from a long time to write this article as I feel as a web developer(specially mobile web developer) it's very important to tackle performance related issues to grab more users in market like India, Africa and SE Asia where the internet speed is not that good compared to western world.
 
 According to research done by Google few months back the next billion users who are going to be part of internet community will be from these markets only.
@@ -83,11 +89,6 @@ Lastly regarding the broswer support link rel=preload currently ships in Chrome 
 There are lots of other stuffs one can do to improve the performance and user experience of their web application which I leave for you to explore as those depends upon specific scenarios.
 Web technologies are getting better everyday to make sure we as developers have right tools in our pocket to create good performant applications to reach these next billion users who are going to be online.
 Hope this article will encourage you to think about your web apps from these new customers and market point of view so that you can tap more of them and make Intenet or Web a much better place.   
-
-I have made a very small demo to showcase use of all these technologies together to achieve good performance.
-Check [this](https://github.com/manmeet90/http2pushTest)
-This demo uses service workers and http2/push for performance optimizations.Make sure to run timelines and profilers of your browser dev tools to see how these things work. 
-
 
 
 
